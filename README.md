@@ -1,40 +1,5 @@
 # t-SNE for Feature Visualization
 
-1. Create and activate virtual environment for experiments with t-SNE.
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-2. install the dependencies
-
-```bash
-python3 -m pip install -r requirements.txt
-```
-
-# Data downloading
-
-Download data from Kaggle and unzip it.
-The easiest way is to use kaggle console API. To setup it, follow [this guide](https://www.kaggle.com/general/74235).
-However, you can download the data using your browser - results will be the same.
-
-After that, execute the following commands:
-
-```bash
-
-kaggle datasets download alessiocorrado99/animals10
-
-mkdir -p data
-
-cd data
-
-unzip ../animals10.zip
-
-cd ..
-
-```
-
 # Executing the T-SNE visualization
 
 ```bash
